@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+A: By viewing the diff between the two versions of the file, I was able to see exactly which lines
+were different between the two files and I was able to compare each line to find they bug/typo.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A: Having easy access to the entire history of a file will make me a more efficient programmer in the long term
+because I will be able to easily trace back my steps and pinpoint exactly when a bug made its way into the code
+and where the bug is by comparing versions of the file.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having
+versions automatically saved, like Google Docs does?
+
+A: The pros of manually choosing when to create a commit are that I would be able to decide when would be a logical
+time to make the commit, so that the change would make sense to me later and my history won't be too cluttered or too
+bare, making it easier to navigate and understand. The only con here is that I may forget to make a commit.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others,
+like Google Docs, treat each file separately?
+
+A: Some version control systems like Git allow saving multiple files in one commit because they deal with files that
+are highly related to each other and interact in order to function properly. They also share items between each other.
+Other version control systems deal with files that operate on a stand alone basis.
+
+How can you use the commands git log and git diff to view the history of files?
+
+A: I can use git log to view all the commits to a repository, and git diff to view the changes from one commit to the
+next.
+
+How might using version control make you more confident to make changes that could break something?
+
+A: Using version control makes me more confident to make changes that could break something because there are controls
+that allow me to check back to different versions to pinpoint exactly where changes needed to be made rather than
+having to do trial and error and possibly break something.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+A: Now that I have my workspace set up, I'm going to use Git to update versions of my projects so that I have a history
+I can refer back to when debugging.
