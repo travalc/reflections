@@ -1,0 +1,19 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A: When you initialize a repository, you prepare the repository to be able
+to receive commits. This is needed in order to begin the history of the
+repository.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+A: The staging area is different from the working directory and the repository in
+that it is a temporary place between the latter two where files go in preparation
+to be committed to the repository. This is valuable as it allows the developer to
+visualize the changes that they are committing before they happen.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+A: You can use the staging area to make sure you have one commit per logical change
+by adding only those files to the staging area that are relevant to the logical change
+being made.
