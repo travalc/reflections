@@ -26,3 +26,8 @@ would be when I need to make multiple language versions or am experimenting with
 a certain feature. Branches would help in that I would be able to do these things
 while still maintaining a main branch that would represent what I would show off
 to others.
+
+How do the diagrams help you visualize the branch structure?
+
+A: The diagrams help me visualize the branch structure by showing where the main
+branch starts to divert into separate branches with different changes.
