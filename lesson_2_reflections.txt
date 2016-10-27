@@ -38,3 +38,9 @@ diagram the way we do?
 A: The result of merging two branches together is combining all of the desired changes
 from multiple branches into one file. This is represented in the diagram as two
 merging paths because it pulls from the history of both branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: The pros of Git's automatic merging is that it reduces the amount of work needed
+to complete regular merges. However, this could result in a lot of conflicts. Merging
+manually is more work, but the merges will allow users to resolve conflicts.
