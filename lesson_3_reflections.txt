@@ -34,3 +34,15 @@ between collaborators and sharing proposed changes in a readme. Nothing about th
 be easier, and it would be harder in that collaborators would need to open individual
 files and manually insert the changes in order to merge versions. It would also be difficult
 to track the history of the versions and to investigate bugs and fix them.
+
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+
+A: You would want to make changes in a separate branch rather than directly in master
+when you are proposing changes to a repository that you are are not the main contributor
+to. The benefit of this is that you can keep up to date with the changes that the
+other contributors are making by pulling the changes of the remote master into the
+local master then merging the local  master into the separate branch you're working on
+to see if there are any conflicts. The benefit of working directly in the master is
+that this process is much more simple, but can only be done if you're the main
+contributor.
