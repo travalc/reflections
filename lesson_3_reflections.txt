@@ -18,3 +18,19 @@ wanting to copy someone else's repository onto your github profile while still g
 credit to the originator. Clones are copies of a repository that are copied either locally
 or from the remote on github to the local computer. Branches represent a lineage of commits
 or a version of a repository.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A: The benefit of having a copy of the last known state of the remote stored locally
+is that you can work offline and track the changes to the remote, and when pulling or
+fetching commits from github, you can track if there are conflicting commits that descend
+from a common parent, then correct those conflicts and merge the commits together.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would
+be harder?
+
+A: You could collaborate without using Git or Github by sending zip files back and forth
+between collaborators and sharing proposed changes in a readme. Nothing about this would
+be easier, and it would be harder in that collaborators would need to open individual
+files and manually insert the changes in order to merge versions. It would also be difficult
+to track the history of the versions and to investigate bugs and fix them.
